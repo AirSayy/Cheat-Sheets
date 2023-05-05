@@ -44,5 +44,19 @@ console.log(thisString.includes('t'))  //true
 // indexOf() : This method returns the position of the first found occurence of the specified value of a string.
 const thisString = 'I am a software developer.'
 
-console.log(thisString.indexOf('software'))  //7
-console.log(thisString.indexOf('am'))  //2
+console.log(thisString.indexOf('software'))  // 7
+console.log(thisString.indexOf('am'))  // 2
+
+
+// lastIndexOf() : This method returns the position of the last found occurence of the specified value of a string.
+const thisString = 'I am a software developer.'
+
+console.log(thisString.lastIndexOf('software'))   // 7
+console.log(thisString.lastIndexOf('am'))  // 2
+
+
+// match() : This method searches a string for a match against the regular expression and return the matches. if its more than one match, it return an array.
+const thisString = 'I am a software developer.'
+
+console.log(thisString.match(/e/g))   // ['e', 'e', 'e', 'e']
+console.log(thisString.match(/o/g))  // ['o', 'o']
