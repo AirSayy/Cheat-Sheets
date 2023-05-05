@@ -68,3 +68,9 @@ const thisString = 'Hire me'
 console.log(thisString.repeat(3)) // Hire meHire meHire me
 
 
+// replace() : This method searches a string for a specified value or regular expression and return the position of the match.
+const thisString = 'I am a software developer.'
+
+console.log(thisString.replace(/software/g , 'SOFTWARE'))   // I am a SOFTWARE developer.
+console.log(thisString.replace(/developer/g , 'DEVELOPER'))  // I am a software DEVELOPER.
+
