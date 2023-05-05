@@ -13,5 +13,10 @@ console.log(thisString.charCodeAt(0))  //73
 console.log(thisString.charCodeAt(3))  //109
 
 
+// concat : Joins two or more strings and returns a new string
+const thisString = 'I am a software dveloper.'
+const secondString = 'Hire me'
+
+console.log(thisString.concat(secondString))  // I am a software dveloper.Hire me
 
 
