@@ -60,3 +60,11 @@ const thisString = 'I am a software developer.'
 
 console.log(thisString.match(/e/g))   // ['e', 'e', 'e', 'e']
 console.log(thisString.match(/o/g))  // ['o', 'o']
+
+
+// repeat() : This method returns a new string with a specified number of copies of an existing string.
+const thisString = 'Hire me'
+
+console.log(thisString.repeat(3)) // Hire meHire meHire me
+
+
