@@ -27,3 +27,10 @@ console.log(thisString.endsWith('software'))   //false
 console.log(thisString.endsWith('developer.'))   //true
 
 
+// fromCharCode : This converts unicode values to characters
+const thisString = 'I am a software developer.'
+
+console.log(String.fromCharCode(73))   //"I"
+console.log(String.fromCharCode(109))  //"m"
+
+
