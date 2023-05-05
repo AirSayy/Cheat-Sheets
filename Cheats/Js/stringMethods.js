@@ -39,3 +39,10 @@ const thisString = 'I am a software developer.'
 
 console.log(thisString.includes('y'))  //false
 console.log(thisString.includes('t'))  //true
+
+
+// indexOf() : This method returns the position of the first found occurence of the specified value of a string.
+const thisString = 'I am a software developer.'
+
+console.log(thisString.indexOf('software'))  //7
+console.log(thisString.indexOf('am'))  //2
