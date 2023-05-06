@@ -85,7 +85,7 @@ console.log(thisString.search('am'))  // 2
 // slice() : This method extracts a part of a string and returns a new string.
 const thisString = 'I am a software developer.'
 
-console.log(thisString.slice(2 , 4))   // am
+console.log(thisString.slice(2 , 4))   // 
 console.log(thisString.slice(10 , 14)) // twar
 
 
