@@ -28,17 +28,17 @@ console.log(myString.endsWith('developer.'))   //true
 
 
 // fromCharCode() : This converts unicode values to characters
-const thisString = 'I am a software developer.'
+const myString = 'I am a software developer.'
 
 console.log(String.fromCharCode(73))   //"I"
 console.log(String.fromCharCode(109))  //"m"
 
 
 // includes() : This checks if the string contains the specified string or character.
-const thisString = 'I am a software developer.'
+const myString = 'I am a software developer.'
 
-console.log(thisString.includes('y'))  //false
-console.log(thisString.includes('t'))  //true
+console.log(myString.includes('y'))  //false
+console.log(myString.includes('t'))  //true
 
 
 // indexOf() : This method returns the position of the first found occurence of the specified value of a string.
