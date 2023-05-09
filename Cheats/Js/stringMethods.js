@@ -42,10 +42,10 @@ console.log(myString.includes('t'))  //true
 
 
 // indexOf() : This method returns the position of the first found occurence of the specified value of a string.
-const thisString = 'I am a software developer.'
+const myString = 'I am a software developer.'
 
-console.log(thisString.indexOf('software'))  // 7
-console.log(thisString.indexOf('am'))  // 2
+console.log(myString.indexOf('software'))  // 7
+console.log(myString.indexOf('am'))  // 2
 
 
 // lastIndexOf() : This method returns the position of the last found occurence of the specified value of a string.
