@@ -14,10 +14,10 @@ console.log(myString.charCodeAt(3))  //109
 
 
 // concat() : Joins two or more strings and returns a new string
-const thisString = 'I am a software developer.'
+const myString = 'I am a software developer.'
 const secondString = 'Hire me'
 
-console.log(thisString.concat(secondString))  // I am a software developer.Hire me
+console.log(myString.concat(secondString))  // I am a software developer.Hire me
 
 
 // endsWith() : Checks if a string ends with a specified string or character
