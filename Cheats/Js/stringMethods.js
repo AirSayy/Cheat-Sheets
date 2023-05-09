@@ -21,10 +21,10 @@ console.log(myString.concat(secondString))  // I am a software developer.Hire me
 
 
 // endsWith() : Checks if a string ends with a specified string or character
-const thisString = 'I am a software developer.'
+const myString = 'I am a software developer.'
 
-console.log(thisString.endsWith('software'))   //false
-console.log(thisString.endsWith('developer.'))   //true
+console.log(myString.endsWith('software'))   //false
+console.log(myString.endsWith('developer.'))   //true
 
 
 // fromCharCode() : This converts unicode values to characters
