@@ -2,9 +2,9 @@
 
 
 // charAt() : Returns a character at a specified index/position.
-const thisString = 'I am a software developer'
-console.log(thisString.charAt(0))  //"I"
-console.log(thisString.charAt(3))  //"m"
+const myString = 'I am a software developer'
+console.log(myString.charAt(0))  //"I"
+console.log(myString.charAt(3))  //"m"
 
 
 // charCodeAt() : Returns a unicode of the character at a specific index
