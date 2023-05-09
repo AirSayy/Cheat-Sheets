@@ -8,9 +8,9 @@ console.log(myString.charAt(3))  //"m"
 
 
 // charCodeAt() : Returns a unicode of the character at a specific index
-const thisString = 'I am a software developer'
-console.log(thisString.charCodeAt(0))  //73
-console.log(thisString.charCodeAt(3))  //109
+const myString = 'I am a software developer'
+console.log(myString.charCodeAt(0))  //73
+console.log(myString.charCodeAt(3))  //109
 
 
 // concat() : Joins two or more strings and returns a new string
