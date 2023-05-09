@@ -88,10 +88,42 @@ const thisString = 'I am a software developer.'
 console.log(thisString.slice(2 , 4))   // am
 console.log(thisString.slice(10 , 14)) // twar
 
-// slice() : This method extracts a part of a string and returns a new string.
+// split() : This method splits a string into sub string and returns an array.
+const thisString = 'Hire me!'
+
+console.log(thisString.split(''))  // ['H', 'i', 'r', 'e', ' ', 'm', 'e', '!'] 
+console.log(thisString.split(' '))  // ['Hire', 'me!']
+
+// startsWith() : This method returns a boolean if a string starts with a specified character.
+const thisString = 'Hire me!'
+
+console.log(thisString.startsWith('me'))  // false
+console.log(thisString.startsWith('Hire'))  // true
+
+
+// subString() : This method extracts the character from a string beginning at a specified start position.
 const thisString = 'I am a software developer.'
 
-console.log(thisString.slice(2 , 4))   // am
-console.log(thisString.slice(10 , 14)) // twar
+console.log(thisString.substring(2 , 4))   // am
+console.log(thisString.substring(10 , 14)) // twar
+
+// toLowerCase() : This method returns the string in lower case.
+const thisString = 'I am a software developer.'
+
+console.log(thisString.toLowerCase())   // i am a software developer.
+
+
+// toUpperCase() : This method returns the string in upper case.
+const thisString = 'I am a software developer.'
+
+console.log(thisString.toUpperCase())   // I AM A SOFTWARE DEVELOPER.
+
+
+// trim() : This method removes whitespaces from either sides of the string.
+const thisString = '  I am a software developer.  '
+
+console.log(thisString.trim())   // I am a software developer.
+
+
 
 
