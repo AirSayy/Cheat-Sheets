@@ -1,7 +1,7 @@
 // String Methods in JavaScript
 
 
-// charAt() : Returns a character at a specified index/position.
+// charAt() : This method returns a character at a specified index/position.
 const myString = 'I am a software developer'
 console.log(myString.charAt(0))  //"I"
 console.log(myString.charAt(3))  //"m"
