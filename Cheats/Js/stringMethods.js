@@ -27,14 +27,14 @@ console.log(myString.endsWith('software'))   //false
 console.log(myString.endsWith('developer.'))   //true
 
 
-// fromCharCode() : This converts unicode values to characters
+// fromCharCode() : This method converts unicode values to characters
 const myString = 'I am a software developer.'
 
 console.log(String.fromCharCode(73))   //"I"
 console.log(String.fromCharCode(109))  //"m"
 
 
-// includes() : This checks if the string contains the specified string or character.
+// includes() : This method checks if the string contains the specified string or character.
 const myString = 'I am a software developer.'
 
 console.log(myString.includes('y'))  //false
