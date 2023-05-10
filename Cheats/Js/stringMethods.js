@@ -20,7 +20,7 @@ const secondString = 'Hire me'
 console.log(myString.concat(secondString))  // I am a software developer.Hire me
 
 
-// endsWith() : Checks if a string ends with a specified string or character
+// endsWith() : This method Checks if a string ends with a specified string or character
 const myString = 'I am a software developer.'
 
 console.log(myString.endsWith('software'))   //false
