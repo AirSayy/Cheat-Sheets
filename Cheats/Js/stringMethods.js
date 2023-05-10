@@ -7,7 +7,7 @@ console.log(myString.charAt(0))  //"I"
 console.log(myString.charAt(3))  //"m"
 
 
-// charCodeAt() : Returns a unicode of the character at a specific index
+// charCodeAt() : This method returns a unicode of the character at a specific index
 const myString = 'I am a software developer'
 console.log(myString.charCodeAt(0))  //73
 console.log(myString.charCodeAt(3))  //109
