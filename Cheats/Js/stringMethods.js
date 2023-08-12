@@ -122,7 +122,7 @@ console.log(thisString.toUpperCase())   // I AM A SOFTWARE DEVELOPER.
 // trim() : This method removes whitespaces from either sides of the string.
 const thisString = '  I am a software developer.  '
 
-console.log(thisString.trim())   // I am a software developer..
+console.log(thisString.trim())   // I am a software develope
 
 
 
