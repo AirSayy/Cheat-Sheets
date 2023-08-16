@@ -110,7 +110,7 @@ console.log(thisString.substring(10 , 14)) // twar
 // toLowerCase() : This method returns the string in lower case.
 const thisString = 'I am a software developer.'
 
-console.log(thisString.toLowerCase())   // i am a software developer.
+console.log(thisString.toLowerCase())   // i am a software develo
 
 
 // toUpperCase() : This method returns the string in upper case.
