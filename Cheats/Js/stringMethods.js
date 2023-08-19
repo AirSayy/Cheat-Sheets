@@ -104,7 +104,7 @@ console.log(thisString.startsWith('Hire'))  // true
 // subString() : This method extracts the character from a string beginning at a specified start position.
 const thisString = 'I am a software developer.'
 
-console.log(thisString.substring(2 , 4))   // 
+console.log(thisString.substring(2 , 4))   //am 
 console.log(thisString.substring(10 , 14)) // twar
 
 // toLowerCase() : This method returns the string in lower case.
