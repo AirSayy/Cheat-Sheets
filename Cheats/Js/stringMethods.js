@@ -98,7 +98,7 @@ console.log(thisString.split(' '))  // ['Hire', 'me!']
 const thisString = 'Hire me!'
 
 console.log(thisString.startsWith('me'))  // false
-console.log(thisString.startsWith('Hire'))  // true
+console.log(thisString.startsWith('Hire'))  // 
 
 
 // subString() : This method extracts the character from a string beginning at a specified start position.
