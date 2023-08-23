@@ -92,7 +92,7 @@ console.log(thisString.slice(10 , 14)) // twar
 const thisString = 'Hire me!'
 
 console.log(thisString.split(''))  // ['H', 'i', 'r', 'e', ' ', 'm', 'e', '!'] 
-console.log(thisString.split(' '))  // ['Hire', 'me!'
+console.log(thisString.split(' '))  // ['Hire', 'me!']
 
 // startsWith() : This method returns a boolean if a string starts with a specified character.
 const thisString = 'Hire me!'
